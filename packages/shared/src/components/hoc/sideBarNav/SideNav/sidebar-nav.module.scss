@@ -1,0 +1,58 @@
+.sideBarWrapper {
+  position: -webkit-fixed;
+  position: fixed;
+  top: 0;
+  background-color: #effafe;
+  width: 210px;
+  height: 100vh;
+  box-shadow: 0 1 0 0 rgba(0, 0, 0, 0.2);
+}
+.sideBarContainer {
+  padding: 20px;
+  width: 100%;
+}
+.navList {
+  margin-top: 39px;
+}
+.navItem {
+  font-size: 14px;
+  line-height: 17px;
+  color: #222222;
+  padding: 13px 13px 13px 11px;
+  height: 43px;
+}
+.active {
+  background-color: #ffffff;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.icon {
+  margin-right: 11px;
+}
+.label {
+  vertical-align: top;
+}
+.profileWrapper {
+  position: -webkit-fixed;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 210px;
+}
+.profileContainer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.profileName {
+  flex-direction: row;
+  font-size: 14px;
+  line-height: 14px;
+}
+.profileImage {
+  align-items: flex-end;
+}
+.userOption {
+  position: absolute;
+  top: 0;
+  left: 38px;
+}

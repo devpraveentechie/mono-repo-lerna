@@ -1,0 +1,25 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "BROWSER=none react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "moment": "^2.29.4",
+    "react-datepicker": "^4.11.0",
+    "react-hook-form": "^7.43.9",
+    "react-select": "^5.7.2",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/react-datepicker": "^4.10.0"
+  }
+}
